@@ -95,7 +95,7 @@ func main() {
 		w.Write([]byte("ok"))
 	})
 
-	port := ":8000"
+	port := ":31020"
 	fmt.Printf("Starting server on port %s\n", port)
 	log.Fatal(http.ListenAndServe(port, nil))
 }

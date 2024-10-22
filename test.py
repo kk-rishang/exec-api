@@ -5,7 +5,7 @@ import os
 
 load_dotenv()
 
-URI = os.getenv('URI', 'http://localhost:8000')
+URI = os.getenv('URI', 'http://localhost:31020')
 if URI[-1] == '/':
     URI = URI[:-1]
 
