@@ -15,7 +15,7 @@ if [ $? != 0 ]; then
   tmux new-session -d -s $SESSION_NAME
   tmux send-keys -t $SESSION_NAME "/tmp/exec-api" C-m
   echo "Server started in tmux session '$SESSION_NAME'."
-  echo "Port is 9241"
+  echo "Port is 8000"
 else
   echo "Tmux session '$SESSION_NAME' is already running."
 fi
