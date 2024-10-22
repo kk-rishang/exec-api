@@ -1,5 +1,5 @@
-curl -LO https://github.com/kk-rishang/exec-api/raw/refs/heads/main/main
-mv main /tmp/exec-api; chmod +x /tmp/exec-api
+curl -LO https://github.com/kk-rishang/exec-api/raw/refs/heads/main/exec-api
+mv exec-api /tmp/exec-api; chmod +x /tmp/exec-api
 
 which tmux || (sudo apt update && sudo apt install -y tmux)
 
